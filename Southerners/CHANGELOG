@@ -1,0 +1,58 @@
+# wmllint: no translatables
+#textdomain wesnoth-Southerners
+
+			 CHANGELOG
+
+Southerners
+______________________________________________________________________________
+
+
+
+
+    ______________________________________________
+
+
+version 1.8.5
+    - for some weired reasons, the units are not displayed
+    -- on   units.wesnoth.org/1.14
+    -- the Database Build Report says:
+    -- "Southerners 	0 	parse error (9 lines)"
+    -- in local play everything is fine, but the log says:
+    -- 20180505 00:11:28 error preprocessor:
+    -- Macro/file
+    -- '~add-ons/Halfelven/campaign.cfg' is missing
+    -- at ~add-ons/Southerners/_main.cfg:24
+    -- which clearly isn't the case
+    -- therefor the contents of the standalone factions
+    -- Halfelven and Sharifs (formerly bound by dependency)
+    -- are now merged into this era directly
+    -- by copy & paste
+
+    ______________________________________________
+
+
+version 1.8.4
+    -RC3 version
+
+version 1.8.3
+    -stripped of faction details
+    -leaving era defines
+    -factions go into dependencies
+    ______________________________________________
+
+
+version 1.8.x
+	-new version number:
+		1.8 stands for 2018
+		.x stands for the month
+	-two separet races: leviim and hasmonaim
+	-overhaul of unit stats, resistances and terrain bonuses
+	-cleared out unit-line development-trees
+	--minor changes in names
+	-overhaul of unit descriptions
+	-rework of era and campaign descriptions
+	______________________________________________
+
+________________________________________________________________________________
+Initially released End of April, 2018 on Wesnoth 1.13.14 (=1.14 RC) server.
+

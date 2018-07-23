@@ -1,0 +1,105 @@
+##
+#textdomain wesnoth-Tunnel_Rats_part01
+
+# ---Gold defines per side for all scenarios of part 1
+
+#define 1xx_SIDE_1_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 1xx_SIDE_2_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 1xx_SIDE_3_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+
+#define 1xx_SIDE_4_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 1xx_SIDE_5_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 1xx_SIDE_6_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+
+    # --------------------101_Departure
+#define 101_SIDE_1_GOLD
+        {GOLD 24 22 19}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+#define 101_SIDE_2_GOLD
+        {GOLD 0 0 0}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 101_SIDE_3_GOLD
+        {GOLD 292 242 212}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 101_SIDE_4_GOLD
+        {GOLD 292 242 212}
+        {INCOME 0 0 0}
+        village_gold=1
+#enddef
+#define 101_SIDE_5_GOLD
+        {GOLD 271 317 382}
+        {INCOME -2 -2 -2}
+        village_gold=1
+#enddef
+#define 101_SIDE_6_GOLD
+        {GOLD 266 286 336}
+        {INCOME -2 -2 -2}
+        village_gold=1
+#enddef
+
+    # --------------------120_Departure
+#define 120_SIDE_2_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+#define 120_SIDE_3_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+#define 120_SIDE_4_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+#define 120_SIDE_5_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+#define 120_SIDE_6_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+
+    # --------------------121_Departure
+#define 121_SIDE_1_GOLD
+        {GOLD 0 0 0}
+        {INCOME -2 -2 -2}
+        village_gold=0
+#enddef
+
+
+

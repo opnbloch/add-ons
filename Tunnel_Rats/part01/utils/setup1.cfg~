@@ -1,0 +1,62 @@
+##
+#textdomain wesnoth-Tunnel_Rats_part01
+
+# --------in use-----------------------------------
+
+#define SAYON_SETUP
+    {FLAG_VARIANT wood-elvish}
+    color=lightblue
+        #red lightred darkred purple
+        #blue lightblue
+        #green brightgreen teal gold
+        #black brown white
+        #orange brightorange
+#enddef
+
+#define HASMONEE_SETUP
+    {FLAG_VARIANT wood-elvish}
+    color=teal
+#enddef
+
+#define LEVITES_SETUP
+    {FLAG_VARIANT wood-elvish}
+    color=white
+#enddef
+
+#define AVIAN_SETUP
+    {FLAG_VARIANT wood-elvish}
+    color=brightgreen
+#enddef
+
+#define DUNEFOLK_SETUP
+    {FLAG_VARIANT long}
+    color=gold
+#enddef
+
+#define REAVER_SETUP
+    {FLAG_VARIANT long}
+    color=black
+#enddef
+
+#define HUMAN_SETUP
+    {FLAG_VARIANT loyalist}
+    color=blue
+#enddef
+
+#define ORC_SETUP
+    {FLAG_VARIANT6 ragged}
+    color=lightred
+#enddef
+
+#define DWARF_SETUP
+    {FLAG_VARIANT knalgan}
+    color=orange
+#enddef
+
+#define UNDEAD_SETUP
+    {FLAG_VARIANT undead}
+    color=purple
+#enddef
+
+
+

@@ -1,0 +1,65 @@
+###
+#textdomain  wesnoth-Sharifs
+
+			 CHANGELOG
+________________________________________________________________________________
+
+Sharifs is the name of an altered Dunefolk faction.
+It delivers two more units: the bomber-engineer and the martial arts assassin (hashishi).
+==== Credits & thanks go to the creators of ====
+- Ageless_Era by Mnewton1,various (see credits there)
+________________________________________________________________________________
+
+version 1.8.4
+    - release of of Wesnoth 1.14 RC3 version on Wesnoth 1.13.14 server
+
+version 1.8.2a
+    - new version scheme:
+    - 1.8 represents the year 2018 and
+    -  .2 stands for the month of that year, February
+    - upgraded to Wesnoth's new naming of the Dunefolk-faction,
+      formerly known as 'Khalifate' (A Caliphate is an islamic
+      state under the leadership of a caliph, considered
+      to be a religious successor to prophet Mu-ham-mad)
+
+1.7.6x updates due to error-log errors
+	+ introduction of lvl0 unit Felach
+
+2.0.16.12.04c
+	-base damage of bomber attack reduced from 30 to 24
+
+2.0.16.3.15
+	= minor fix
+
+2.0.15.9
+	= changed [unit_type] id-strings due to a bug:
+		- bug renders saved games and saved replays 'invalid' or 'corrupted'
+		- it was caused by the "-" in the id-strings like id=tiv-naffat
+		- changed to "_", e.g. id=tiv_naffat
+	= minor bug fixes
+
+Version 2.0.15.8
+	= version release as of August 2015
+	= verry slightly lessened the base values of the Khalifate units
+		via base unit include and only HP XP attack values altered
+	= changed all units to alignment=liminal (as the factions feature), but not falcon
+
+Version 1.0.3
+	= minor bug fix
+
+Version 1.0.2
+ = tested stable version
+	+ small adaptions in code style
+	+ ad of Desert Map-Pack (as a dependency)
+
+Version 1.0.1 to 1.0.2
+	= unpublished testing versions
+
+Version 0.3.2
+ 	= small adaptions
+
+Version 0.3.0
+ 	= initial release
+
+________________________________________________________________________________
+Initially released end of June, 2015, on Wesnoth 1.12.2 server.

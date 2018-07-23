@@ -1,0 +1,170 @@
+body{background-color:#0a101a; margin:0px; padding:0px;}
+#cntr{width:1000px; margin-left:auto; margin-right:auto; }
+#cntr .lftbox{width:240px; float:left;}
+#cntr .midbox{width:470px; float:left; background-color:#faa93f;}
+#cntr .rgtbox{width:290px; float:left; background-image:url(../images/right_bg.jpg); background-repeat:no-repeat; }
+#cntr .lftbox_logo{width:240px; float:left; margin-top:10px;}
+/*Menu*/
+#cntr .lftboxmenu{width:239px; float:left; margin-top:10px;}
+#cntr .lftboxmenu ul{list-style:none; text-align: left; margin-left:0px;}
+#cntr .lftboxmenu ul li{padding:0px 0 0 0px; float:left;}
+#cntr .lftboxmenu ul li a{float:left; text-decoration:none; text-align: center; color: #cc9966; font-size:18px; font-family: "ArenaCapsSSiRegular"  ; display:block;padding-top:14px; width:235px; text-transform: uppercase;}
+#cntr .lftboxmenu ul li a:hover{color: #FFF;}
+/*End Menu*/
+#cntr .lftbox_hand{width:240px; float:left; margin-top:28px;}
+/*Btm Menu*/
+#cntr .lftbox_btmmenu{width:203px; float:left; margin-top:200px; margin-left:20px;}
+#cntr .lftbox_btmmenu ul{ margin:0px; padding:0px; list-style:none; }
+#cntr .lftbox_btmmenu ul li{ float:left; border-left: solid #FFF; border-left-width:1px;  }
+#cntr .lftbox_btmmenu ul li a{ display:block;
+margin:0px;
+padding:0px 5px;
+text-decoration:none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+color:#FFF;}
+
+#cntr .lftbox_btmmenu ul li a:hover{ text-decoration:none; color:#960;}
+
+/* End Btm Menu*/
+
+#cntr .midbox{width:470px;min-height:874px; float:left; background-color:#faa93f;}
+#cntr .midbox_subbx{ width:405px; height:179px;
+float:left;
+margin-left:0px;
+margin-top:17px;
+margin-bottom: 18px;
+background-color:#f9d677;
+border:#caa154 solid; border-width:1px;}
+#cntr .midbox_subbxlft{ width:236px; float:left; margin-left:9px; margin-top:11px;}
+
+
+
+#cntr .midbox_subbxlft_cntbx{ width:236px; float:left; margin-left:9px;
+margin-top:9px;}
+
+#cntr .midbox_subbxlft_cntbxhd{width:236px; float:left; font-family:'ArenaCapsSSiRegular';  font-size:24px; color:#0a0f19; font-weight:bold;}
+#cntr .midbox_subbxlft_cntbxtxt{width:236px; float:left; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; color:#0a0f19;}
+#cntr .midbox_subbxlft_cntbxicon{width:213px; float:left; margin-top:24px;  }
+#cntr .midbox_subbxlft_cntbxiconbx1{width:37px; float:left; margin-left:11px;}
+#cntr .midbox_subbxlft_cntbxiconbx2{width:29px; float:left; margin-left:10px;}
+#cntr .midbox_subbxlft_cntbxiconbx3{float:left; margin-left:10px;}
+
+#cntr .midbox_subbxrgt{width:110px; float:left; margin-left:44px; margin-top:5px;}
+
+#cntr .midboxcont{width:407px; float:left; margin-left:25px; margin-top:18px;}
+
+#cntr .midboxconthd{width:405px; font-family:'ArenaCapsSSiRegular'; font-size:21px; text-transform: uppercase; font-weight:bold; }
+#cntr .midboxconthd2{width:405px; font-family:'ArenaCapsSSiRegular'; font-size:21px; text-transform: uppercase; font-weight:bold; margin-top:15px; }
+#cntr .midboxcontsubhd{width:405px; font-family: Georgia, "Times New Roman", Times, serif; font-size:13px; font-weight:bold; margin-top:13px; color:#0a0f19}
+#cntr .midboxconttxt{width:405px; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; margin-top:18px; color:#0a0f19}
+#cntr .midboxconttxt1{width:407px; font-family:Georgia, "Times New Roman", Times, serif; font-size:13px; margin-top:10px; border-bottom:#bb7f2f solid; border-bottom-width:1px; padding-bottom:3px;}
+#cntr .midboxconttxt2{width:405px; font-family:Georgia, "Times New Roman", Times, serif; font-size:13px; margin-top:5px;  border-bottom:#bb7f2f solid; border-bottom-width:1px; padding-bottom:3px;}
+
+
+
+#cntr .midboxcontbnr{width:405px; float:left; margin-top:25px;}
+#cntr .midboxconttext6{font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; margin-top:10px;}
+
+
+#cntr .rgtbox_lnk{ width:225px; margin-left:54px; float:left; margin-top:30px;}
+#cntr .rgtbox_lnkhd{ width:225px;  float:left; font-family:Georgia, "Times New Roman", Times, serif; font-size:13.5px; color:#FFF; }
+#cntr .rgtbox_lnkcntr{ width:85px; float:left;}
+#cntr .rgtbox_lnkcntrbx1{width:26px; float:left;}
+#cntr .rgtbox_blnk{width:290px; height:812px; float:left;}
+
+/* subpage class*/
+
+#cntr .subpagecmnbg{
+	width:760px;
+	min-height: 1092px;
+	float:left;
+	background-image: url(../images/subpage_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#cntr .subpagecmnbg .middlebox{
+	width:530px;
+	background-color:#faa93f;
+	padding-left: 24px;
+	padding-right: 36px;
+	padding-top: 30px;
+		float:left;
+}
+#cntr .subpagecmnbg .middlebox .pgehdrbx{
+	width:530px;
+	background-color:#f9d677;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+#cntr .subpagecmnbg .middlebox .pgehdrbx .pghdr, 
+#cntr .subpagecmnbg .middlebox .pgehdrbx .entry-title{
+	font-family:'ArenaCapsSSiRegular';
+	font-size: 35px;
+	font-weight: normal;
+	color: #0a0f19;
+}
+#cntr .subpagecmnbg .middlebox .entry-content{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #0a0f19;
+}
+#cntr .subpagecmnbg .middlebox .pgehdrbx p { margin: 0; }
+#cntr .subpagecmnbg .rightbox{
+	width:157px;
+	margin-left: 13px;
+	padding-top: 30px;
+	float:left;
+}
+
+#footer {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer .lftbox{
+	width:240px;
+	float:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #FFF;
+}
+#footer .lftbox UL{
+	margin-left: 12px;
+	margin-top: 0px;
+
+}
+#footer .lftbox UL li{
+	float: left;
+	list-style-type: none;
+	padding-left: 5px;
+}
+#footer .lftbox UL li a{
+	color: #FFF;
+	text-decoration: none;
+}
+#footer .rghtbox{
+	width:530px;
+	background-color:#faa93f;
+	padding-left: 24px;
+	padding-right: 36px;
+	padding-bottom: 10px;
+	float:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #0a0f19;
+	text-decoration: none;
+}
+#footer .rghtboxhome{
+	width:700px;
+	background-color:#faa93f;
+	padding-left: 24px;
+	padding-right: 36px;
+	padding-bottom: 10px;
+	float:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #0a0f19;
+	text-decoration: none;
+}

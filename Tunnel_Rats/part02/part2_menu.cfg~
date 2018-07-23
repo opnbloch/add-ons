@@ -1,0 +1,62 @@
+##
+#textdomain wesnoth-Tunnel_Rats_part02
+
+[campaign]
+
+#ifver WESNOTH_VERSION >= 1.13.0
+#define TRANSPARENT
+#enddef
+#else
+#define TRANSPARENT
+transparent#enddef
+#endif
+
+    # ----------------------------------
+    id = Tunnel_Rats2
+    name= _ "Tunnel Rats, Part 02"
+    abbrev = _ "TUNRA2"
+    rank=7 #417
+    start_year="124 YW"
+    end_year="125 YW"
+    first_scenario=200_Character_Selection
+                 # 200_Character_Selection
+		         # 210_Decisions
+                 # 211_Kerlath
+                 # 212_Kerlath_UG
+                 # 213_Siege
+                 # 214_Siege_UG
+                 # 215_Aethenwood
+                 # 216_Aethenwood_UG
+                 # 217_Vale
+                 # 218_Vale_UG
+                 # 219_
+                 # 220__UG
+
+    # ----------------------------------
+    type=sp
+    define = CAMPAIGN_TUNRA
+    extra_defines=CAMPAIGN_TUNRA_PART2
+
+    # ----------------------------------
+    icon="data/add-ons/Tunnel_Rats/images/icon2.png~TC(1,magenta)"
+    image="data/add-ons/Tunnel_Rats/images/campaign-image.png"
+    {TUNRA_DIFFICULTIES}
+
+    # ----------------------------------
+    description = _ "The enemy's cross-border tunnels under cities are dangerous. And brave are the men and women who clear them out!
+This Epyllion tells the story of a young halfelven you is drafted into defense service at the northern border where he'll face fierce dangers and unexpected help.
+<span color='#909090'><small><i>Note: In the beginning, players can choose between a male and a female main character. The scenarios alternate between surface and underground missions.</i></small></span>
+<small>It is said amongst the Sayon people that when one sees golems, times are tough. They always seemed like mere childhood tales to you. But now times are in trouble for your main character begins its carrier as a commander of a platoon that has golems in it. The orders are to clear out tunnels under your city and to pursit the clue of the Walking Dead - Alas!</small>
+
+<span color='#909090'><small>Novice to Intermediate level    8 scenarios</small></span>
+<span color='#909090'><small><i>Note: The </i>Novice<i> difficulty level is aimed at first-time players.</i></small></span>" + {TUNRA_VERSION}
+    description_alignment=left #left center right
+
+    # ----------------------------------
+    {TUNRA_CREDITS}
+    end_text= _ "To be continued..."
+
+[/campaign]
+
+#undef TRANSPARENT
+

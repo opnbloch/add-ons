@@ -1,0 +1,52 @@
+#textdomain wesnoth-Tunnel_Rats_part00
+
+[campaign]
+
+#ifver WESNOTH_VERSION >= 1.13.0
+#define TRANSPARENT
+#enddef
+#else
+#define TRANSPARENT
+transparent#enddef
+#endif
+
+    # ----------------------------------
+    id = Tunnel_Rats0
+    name= _ "Tunnel Rats, Tutorial"
+    abbrev = _ "TUNRA0"
+    rank=5 #415
+    start_year="123 YW"
+    end_year="124 YW"
+    first_scenario=000_Character_Selection
+                 # 000_Character_Selection
+                 # 001_Prologue
+		         # 011_Golems
+                 # 012_Secrets
+                 # 013_Tunnels
+                 # 014_Epilogue
+
+    # ----------------------------------
+    type=sp
+    define = CAMPAIGN_TUNRA
+    extra_defines=CAMPAIGN_TUNRA_PART0
+
+    # ----------------------------------
+    icon="data/add-ons/Tunnel_Rats/images/icon0.png~TC(1,magenta)"
+    image="data/add-ons/Tunnel_Rats/images/campaign-image.png"
+    {TUNRA_DIFFICULTIES}
+
+    # ----------------------------------
+    description = _ "This tutorial is designed as an introduction to the southern realm of Wesnoth around the Black River and to the <b>Halfelven</b> who inhabit it.
+<span color='#909090'><small><i>Note: In the beginning, players can choose between a male and a female main character.</i></small></span>
+<small>Southern maritime climes of sea shores and mountains, valleys and springs. An elysian field, filled with cities, ashlar ramparts, arcane metalcraft, golems and kabbalistic secrets. An eden realm of ancient naval ports, a dark elven kingdom, night creatures, behemoths and monsters.</small>
+<span color='#909090'><small>Novice level    5 scenarios    </small></span>
+<span color='#909090'><small><i>Note: The </i>Novice<i> difficulty level is aimed at first-time players.  </i></small></span>" + {TUNRA_VERSION}
+    description_alignment=left #left center right
+
+    # ----------------------------------
+    {TUNRA_CREDITS}
+    end_text= _ "To be continued..."
+
+[/campaign]
+
+#undef TRANSPARENT

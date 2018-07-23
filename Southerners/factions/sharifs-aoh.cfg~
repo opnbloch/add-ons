@@ -1,0 +1,22 @@
+##
+#textdomain  wesnoth-Sharifs
+
+[multiplayer_side]
+    id=Sharifs_AoH
+    name= _"Sharifs"
+    image="factions/sharifs_aoh.png"
+    {MAGENTA_IS_THE_TEAM_COLOR}
+    type=random
+    leader="Dune Blademaster,Dune Spearmaster,Dune Harrier,Dune Ranger,Dune Cataphract,Dune Firetrooper"
+    random_leader="Dune Blademaster,Dune Spearmaster,Dune Harrier,Dune Ranger,Dune Cataphract"
+    recruit="Dune Rover,Dune Soldier,Dune Piercer,Dune Rider,Dune Herbalist,Dune Burner,Falcon,Dune Swordsman,Dune Spearguard,Dune Apothecary,Dune Skirmisher,Dune Explorer,Dune Sunderer,Dune Raider,Dune Swiftrider,Dune Scorcher,Elder Falcon,STHNRS_Hashishine, STHNRS_Muhandiz"
+    terrain_liked="Ss, Hh, Ha, Ww"
+    # wmllint: markcheck off
+    description="<img>src='portraits/dunefolk/herbalist.png~BG()' align='middle'</img>
+
+"+_"The <bold>text='Sharifs'</bold> is a stand alone faction of humans from the deserts and hills of the southern lands. This dunefolk specialize in using terrain features to coordinate attacks at dawn or dusk. Their ranks boast lawful and liminal units, healers, high-accuracy melee fighters, horse-mounted archers, and fearsome bombers and assassins. While Sharifs units tend to be more expensive than those of the Loyalist faction, they make up for this with high mobility — especially on hilly terrains."
+    # wmllint: markcheck on
+    [ai]
+        recruitment_pattern="fighter,fighter,fighter,mixed fighter,mixed fighter,archer,archer,scout"
+    [/ai]
+[/multiplayer_side]

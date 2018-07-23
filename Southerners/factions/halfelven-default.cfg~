@@ -1,0 +1,24 @@
+##
+#textdomain wesnoth-Southerners
+[multiplayer_side]
+    id=STHNRS_Southerners
+    name= _"Halfelven"
+    image="factions/halfelven_default.png"
+    {MAGENTA_IS_THE_TEAM_COLOR}
+	type=random
+	leader="STHNRS_lanciercaptain, STHNRS_slingercaptain, STHNRS_shieldbearer, STHNRS_weaponbearer, STHNRS_cornet, STHNRS_chariotlight_3"
+
+    random_leader="STHNRS_lanciercaptain, STHNRS_slingercaptain, STHNRS_shieldbearer, STHNRS_weaponbearer, STHNRS_cornet"
+
+	recruit="STHNRS_slinger, STHNRS_lancier, STHNRS_chariotlight_2, STHNRS_chariotheavy_1, STHNRS_paramedic, STHNRS_operative, STHNRS_phoenix, STHNRS_yeoman, STHNRS_provost, STHNRS_emissary, STHNRS_pharmacist"
+	terrain_liked="Dd, Ds, Ss, Hh, Ha, Ww"
+    # wmllint: markcheck off
+    description="<img>src='/portraits/halfelven.png~BG()' align='middle'</img>
+
+"+_"The <bold>text='Halfelven'</bold> is a unique stand alone faction . Their homeland is in south-western parts of the Great Continent (Irdya), beyond the Black River. Halfelven use terrain features to coordinate attacks at dawn or dusk. Among them are paramedics, high-accuracy slingers, spearmen, leaders, weapon- and armour-bearers, phoenix scouting birds, and protective golems. Halfelven units are defensive and costly but level up quicker due to their surpassing intelligence and sophistication."
+    # wmllint: markcheck on
+	[ai]
+		recruitment_pattern="fighter, fighter, fighter, mixed fighter, mixed fighter, archer, archer, scout"
+	[/ai]
+[/multiplayer_side]
+

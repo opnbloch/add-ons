@@ -1,0 +1,50 @@
+##
+#textdomain wesnoth-Tunnel_Rats_part01
+
+[campaign]
+
+#ifver WESNOTH_VERSION >= 1.13.0
+#define TRANSPARENT
+#enddef
+#else
+#define TRANSPARENT
+transparent#enddef
+#endif
+
+    # ----------------------------------
+    id = Tunnel_Rats1
+    name= _ "Tunnel Rats, Part 01"
+    abbrev = _ "TUNRA1"
+    rank=6 #419
+    start_year="123 YW"
+    end_year="124 YW"
+    first_scenario=100_Character_Selection
+        		# 101_Departure
+                # 102_Sayon
+                # 1xx_
+
+    # ----------------------------------
+    type=sp
+    define = CAMPAIGN_TUNRA
+    extra_defines=CAMPAIGN_TUNRA_PART1
+
+    # ----------------------------------
+    icon="data/add-ons/Tunnel_Rats/images/icon1.png~TC(1,magenta)"
+    image="data/add-ons/Tunnel_Rats/images/campaign-image.png"
+    {TUNRA_DIFFICULTIES}
+
+    # ----------------------------------
+    description = _ "This Epyllion is about a young brave leaving home to do defense service at the border and the challenges he faces on his peregrinations.
+<span color='#909090'><small><i>Note: In the beginning players can choose between a male and a female main character.</i></small></span>
+<small>The spring is coming, you can feel it. The days are warmer and vernal air fills the land. Fragrances of spring and colors of genesis pretty up harbours towns and cities. The Sayon reserve is ordered to the border for defense service. You and your friends leave home to fill the ranks of the watchmen guards.</small>
+<span color='#909090'><small>Novice to Intermediate level    10 scenarios</small></span>
+<span color='#909090'><small><i>Note: The </i>Novice<i> difficulty level is aimed at first-time players.  </i></small></span>" + {TUNRA_VERSION}
+    description_alignment=left #left center right
+
+    # ----------------------------------
+    {TUNRA_CREDITS}
+    end_text= _ "To be continued..."
+[/campaign]
+
+#undef TRANSPARENT
+

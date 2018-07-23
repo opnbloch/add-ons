@@ -1,0 +1,34 @@
+# wmllint: no translatables
+#textdomain wesnoth-Desert_Map-Pack
+
+			CHANGELOG
+
+
+version 1.8.4
+    - Wesnoth 1.14 RC3 release on 1.13.14 server
+
+version 1.8.2
+    - new version scheme:
+    - 1.8 represents zhe year 2018
+    - .2 represents the 2nd month February
+
+2016.07.24
+	+new maintainer: TreeHugger
+
+2.0.15.9
+	= minor fixes
+
+2.0.15.8.1
+	= added dependency The_Ivrim
+
+2.0.15.8
+	= version release as of August 2015
+	+ added 3p - Alirok Oasis map
+
+Development Version 1.0.2
+ 	= Initial release
+ 	= Featured by 'The_Ivrim', and 'Khalifate'
+ 	= more maps to come ..
+
+________________________________________________________________________________
+Initially released August, 2015 on Wesnoth_1.12.2 servers.
